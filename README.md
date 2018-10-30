@@ -1,3 +1,28 @@
+############################
+
+Chris' Edits
+
+So I'm working through this tutorial her: https://medium.com/slack-developer-blog/easy-peasy-bots-getting-started-96b65e6049bf
+
+Only issue is that when I get to the running the bot on my local machine using: 
+CLIENT_ID=224000871875.468766186230 CLIENT_SECRET=e72124bbb6fb6b048a0a84f5cf52f548 PORT=3000 npm start
+
+instead of running I get some lovely errors.
+
+I was able to host using localtunnel without issues, although since the bot doesn't load it's hard to tell if the URL is actually working.
+
+Next steps:
+* Try another botcode and try to get that hosted instead. All I need is *a* bot connected to Slack and then I can mess around with it.
+* Further investigate the ELIFECYCLE error which is coming when I try to npm start
+
+
+
+
+############################
+
+
+
+
 # easy-peasy-bot
 
 ## The story of a (Slack)bot

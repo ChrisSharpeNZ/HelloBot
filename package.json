@@ -1,0 +1,33 @@
+{
+  "name": "HelloBot",
+  "version": "1.0.0",
+  "description": "Csharpe made a bot, it is the hello world of bots.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisSharpeNZ/HelloBot.git"
+  },
+  "keywords": [
+    "slack",
+    "bot"
+  ],
+  "author": "Chris Sharpe",
+  "license": "To Kill",
+  "bugs": {
+    "url": "https://github.com/ChrisSharpeNZ/HelloBot.git"
+  },
+  "homepage": "https://github.com/ChrisSharpeNZ/HelloBot.git",
+  "engines": {
+    "node": "5.1.1"
+  },
+  "dependencies": {
+    "botkit": "^0.6.18",
+    "botkit-storage-mongo": "^1.0.2",
+    "http": "0.0.0",
+    "mongodb": "^1.4.39"
+  }
+}
